@@ -1,0 +1,21 @@
+{
+  "name": "char-encoder",
+  "description": "A executable character encoder using the node iconv-lite module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bin": {
+    "charencoder": "./bin/charencoder"
+  },
+  "dependencies": {
+    "iconv-lite": "*",
+    "commander": "2.1.x",
+    "Q": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
